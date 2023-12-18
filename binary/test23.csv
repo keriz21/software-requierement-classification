@@ -1,0 +1,423 @@
+,Requirement
+0,feature application shall provide optimized route given addresses
+1,feature provides user select optimized route addresses given fixing path desired locations
+2,Fast internet connection mandatory would increase performance application
+3,every user request new maps needed loaded
+4,Google Maps API used application mandatory abide terms use specified Google
+5,installing Application iTunes App store user asked login
+6,Upon successful login user select following catalogue options Spring 2013 Winter 2013
+7,Based selection product categories listed Outerwear Soft Shell Fleece Knits Wovens Active Wear Safety Accessories Team Wear e.c.o Collection
+8,category selected product thumbnail images appear selection
+9,user select product view details
+10,detail page contain features information website
+11,user either proceed call rep order proceed online checkout process
+12,Upon successful login user select following catalogue options use search function indicated search icon top right hand corner application
+13,icon selected two open text field available user search product name product ID/SKU keyword
+14,Following successful query search feature query application database display search results Following unsuccessful query search feature display error message matches found
+15,user select desired product results proceed product details
+16,user either proceed call rep order proceed online checkout process
+17,Upon successful login user select following catalogue options search use sub navigation find following items Catalogue Videos Contact Us
+18,user select download catalogue PDF viewed mobile device
+19,user select videos 360 video list display Upon selecting video play device
+20,users shall able zoom images using standard gestures mobile devices
+21,Users able view next product swiping left right
+22,users able go back product category page via back button top corner
+23,users able search keyword product ID
+24,users able navigate using sub navigation icons access Catalogue PDF 360 videos contact rep representative
+25,application minimal logic little issues computation required phone
+26,hazard user using device driving
+27,application must able link INTERNAL system order users properly log identified
+28,information must kept secure
+29,data entry much difficult actual computer
+30,application phone portability also important dont want take much space slow causing users able fit device
+31,user fills necessary fields activation mail sent users mail address
+32,User able log start using system activating his/her account
+33,user enters his/her username email his/her password logs system
+34,user touches log button logs system user use system he/she logs
+35,user able search items User search items according price location category
+36,user able browse profiles users User see users user names profile photos users items
+37,user able browse categories according his/her wishes User also see many items category
+38,user able browse items User see items pictures prices features
+39,user changes his/her username password notification mail sent users email address
+40,changes apply user clicks link email
+41,user buy credits system He/she use credit card his/her PayPal account
+42,user add items he/she likes cart touching Add cart button
+43,item user wants available exchange user request exchange items he/she item he/she wants
+44,user approve exchange offered another user clicking Approve button
+45,user decline exchange offered another user clicking Decline button
+46,user notifies user shipment item started
+47,user add many items he/she wants
+48,user also set price set amount upload pictures item add details item
+49,user edit items he/she already put system user add/remove pictures change price details item
+50,user longer wishes sell/exchange item he/she remove item system touching Remove item button
+51,user longer wishes use system he/she click Delete Profile button deleting profile user longer able use system account details entered
+52,user mark item favorite notified change made item
+53,user rate comment users traded
+54,10000 users able use system time
+55,response time system 2 seconds
+56,Search form added home page
+57,Sites added correctly search engine
+58,Build search engine based search form sites available
+59,User able search site name description
+60,System self capable feature Auto Suggest
+61,System able return search results desending order form list links sites
+62,System able display `` results found `` case search results found
+63,System link back home case results found
+64,geo-location feature able find user
+65,Use Geolocation scripts locate user
+66,check user within 1 mile campus
+67,user within 1 mile campus update location
+68,User permission use location service
+69,user denies user location service prompt user home screen
+70,user allows location service create user
+71,system unable update location Show failure msg return user home page
+72,Update Page link sites nearby
+73,Build Ajax Response update home page link nearby site based user location
+74,Application respond list links 3 nearest sites A-Z sorted name
+75,Application respond sites placed map markers includes name description link site page
+76,Application distance calculations geolocation information user/site nearby sites
+77,user clicks links browse sites home page system respond list links sites A-Z sorted site name
+78,Application collect list sites sorted name
+79,Application Build URL sites page
+80,user clicks link map sites home page application respond campus map historical sites placed
+81,historical site marker site placed map include name shorten description link site page
+82,sites page contain link walking directions tour
+83,Application respond list thumbnail images site listed oldest newest year
+84,case image available application return `` image `` flag
+85,user clicks thumbnail image sites page application replace sites image medium sized clicked image
+86,Application replace sites description clicked image description
+87,user clicks main image sites page application return enlarged version image
+88,User clicks link Walking Tour application respond walking tour page
+89,User clicks link application respond page
+90,personal data user stored
+91,User location information deleted nightly via cron job
+92,Project admins need authorized use admin interface manage sites project
+93,Standard web security measure implemented
+94,application easily extendable maintainable able released open-source application
+95,app runs smart phone operating system Android version 2.3
+96,layout shall according TU/e corporate identity unless conflict guidelines requirements UCOR003-UCOR006
+97,Icons according Android Icon Guidelines
+98,user interfaces according Android User Interface Guidelines
+99,Twitter tweet interface according Twitter Guidelines
+100,Facebook like interface according Facebook Guidelines
+101,campus map covers campus TU/e
+102,campus map covers central train station Eindhoven
+103,new stylistic map right dimensions
+104,new stylistic map geographically correct
+105,News restricted available feeds list news RSS-feeds
+106,Agenda restricted available feeds list agenda RSS-feeds
+107,Information certain person restricted available employee pages TU/e
+108,information search methods Encyclopedia-app restricted services provided MediaWiki TU/e Encyclopedia
+109,information search methods Studenthandbook-app restricted depending file format handbook-information
+110,Response Time GIST fastness search SCALE response time search METER Measurements obtained 1000 searches testing MUST 2 seconds 100 time WISH 1 second 100 time
+111,System Dependability GIST fault tolerance system SCALE system loses connection Internet GPS device system gets strange input user informed METER Measurements obtained 1000 hours usage testing MUST 100 time
+112,Hard Drive Space GIST Hard drive space SCALE applications need hard drive space METER MB MUST 20 MB PLAN 15 MB WISH 10 MB MB DEFINED Megabyte
+113,Application Memory Usage GIST amount Operate System memory occupied application SCALE MB METER Observations done performance log testing MUST 20 MB PLAN 16 MB WISH 10 MB Operate System DEFINED mobile Operate System application running MB DEFINED Megabyte
+114,System Reliability GIST reliability system SCALE reliability system gives right result search METER Measurements obtained 1000 searches testing MUST 98 searches PLAN 99 searches WISH 100 searches
+115,System Availability GIST availability system used SCALE average system availability considering network failing METER Measurements obtained 1000 hours usage testing MUST 98 time PLAN 99 time WISH 100 time
+116,Internet Connection DESC application connected Internet
+117,GPS Connection DESC application connected GPS device
+118,Communication Security GIST Security communication system server SCALE messages encrypted log-in communications others get user-name password messages METER Attempts get user-name password obtained messages 1000 log-in session testing MUST 100 Communication Messages communication log-in session encrypted Communication Messages Defined Every exchanged information client server
+119,Restaurant Owner Login Account Security GIST Security accounts SCALE restaurant owner tries log web portal non-existing account restaurant owner logged restaurant owner notified log-in failure METER 1000 attempts log-in non-existing user account testing MUST 100 time
+120,Admin Login Account Security GIST Security accounts SCALE admin tries log web portal non-existing account admin logged admin notified log-in failure METER 1000 attempts log-in non-existing user account testing MUST 100 time
+121,Restaurant Owner Account Security GIST Security restaurant owners accounts SCALE restaurant owner IP address able log-in certain time period three times failed log-in attempts METER 1000 attempts log-in lock period user account locked failed log-in attempts three times MUST locking period half hour period log-in function disabled
+122,Admin Account Security GIST Security admin accounts SCALE admin IP address able log-in web portal certain time period three times failed log-in attempts METER 1000 attempts log-in lock period user account locked failed log-in attempts three times MUST locking period half hour period log-in function disabled
+123,User Create Account Security GIST security creating account users system SCALE user wants create account desired user name occupied user asked choose different user name METER Measurements obtained 1000 hours usage testing MUST 100 time
+124,Restaurant Owner Create Account Security GIST security creating account restaurant owners system SCALE restaurant owner wants create account desired user name occupied restaurant owner asked choose different user name METER Measurements obtained 1000 hours usage testing MUST 100 time
+125,Application extendibility DESC application easy extend code written way favors implementation new functions
+126,Application testability DESC Test environments built application allow testing applications different functions
+127,Application portability DESC application portable iOS Android
+128,Performance Requirements 10000 users able use system time response time system 2 seconds
+129,Design Constraints use waterfall method Object Oriented Programming paradigm use Java programming language Android version device 2.3 higher system requires Internet connection time
+130,system designed way algorithms four main units able easily swapped
+131,overall accuracy Web APIs response measured using developer-made testing set
+132,overall accuracy calculated dividing total number correct answers number questions asked
+133,accuracy Generic Question Construction part close 80
+134,Modularity system designed way algorithms four main units able easily swapped
+135,overall accuracy Web APIs response measured using developer-made testing set overall accuracy calculated dividing total number correct answers number questions asked accuracy Generic Question Construction part close 80 accuracy Generic Answer Construction unit close 70 accuracy Generic Answer Population unit close 70 Drexel facilities locations schedules accuracy greater 70 Drexel staffs office locations contact information positions accuracy greater 70 Drexel policies including academics admissions information technology etc accuracy greater 70 On-campus dining locations hours food types etc accuracy greater 50 Food trucks general locations hours food types Drexel Campus accuracy greater 40
+136,Fast Response average time server respond question testing set less equal 2 seconds
+137,Security connection Web API programs use HTTPS security
+138,Ease Use new user make less 3 mistakes 5 minutes 5 minutes use
+139,search feature prominent easy find user
+140,different search options evident simple easy understand
+141,results displayed list view user friendly easy understand Selecting element result list take one click
+142,results displayed map view user friendly easy understand Selecting pin map take one click
+143,information link prominent evident usable link Selecting information link take one click
+144,user interface must GUI based
+145,users required input data cell phone keypad
+146,User options change settings locally remotely
+147,Reduce typing option giving support select menus
+148,primary performance requirement speed network application minimal logic little issues computation required phone
+149,safety requirements application normal hazards mobile device hazard user using device driving
+150,application must able link INTERNAL system order users properly log identified information must kept secure
+151,primary attribute application usability given large amounts data information presented small screen well users ability input data device reasonable manner much difficult actual computer
+152,regards intended number users Amsterdam pilot projected load scenarios intention system able serve 20.000 queries day large part 4 peak traffic hours
+153,order create viable offering user build simple transparent system understood trusted people using
+154,Anonimization aggregation route information may shared safely without disclosing personal information
+155,Encryption data privacy sensitive must persisted server order basic functionality
+156,Permit use unverified anonymous avatars aliases
+157,Give control end-users private data least delete private repository option
+158,system language agnostic since portability prime goal overall project English turkish Finnish Italian least supported replication partners
+159,text elements user interfaces presented selected language English Dutch
+160,Sub-apps launchers added main app qualified programmer
+161,Sub-apps launchers main app deleted qualified programmer
+162,application maintainer also able change lists information sources sub-applications agenda news Facebook Twitter
+163,Application maintainers able maintain application without knowledge Java Android programming able modify approximate appearance application means colors GUI figures applications addition/deletion GUI elements
+164,Application extendable means skilled Java Android programmer able easily add new sub-application insApption add launcher main-application
+165,Users must Radford University student order access automatic class schedule assignment sharing features application Users authenticate logging using RU username password
+166,functionality require network connectivity System components require authentication Radford University network connectivity function long systems maintained University available
+167,development team follow best practices clean code software modularity order make application maintainable possible
+168,Users able access application campus anytime mobile device without need internet connection
+169,application highly extensible terms adding course calendar details views However application general low extensibility
+170,application instance shall able reusable every semester returning student.The user able update class schedule application check registered schedule set next semester current school semester over.Application components able integrated larger RU Mobile application developed maintained Radford University
+171,system designed way algorithms four main units able easily swapped
+172,accuracy Generic Question Construction part close 80
+173,accuracy Generic Answer Construction unit close 70
+174,accuracy Generic Answer Population unit close 70
+175,average time server respond question testing set less equal 2 seconds
+176,connection Web API programs use HTTPS security
+177,new user make less 3 mistakes 5 minutes 5 minutes use
+178,FAU class contains requirements recording occurrence security relevant events take place TSF control family identifies level auditing enumerates types events shall auditable TSF identifies minimum set audit related information provided within various audit record types following extended requirement FAU class included ST operational environment capable providing security audit generation TSF functions
+179,Performance issue server queries involve small pieces data Changing screens require little computation thus occur quickly Server updates take seconds long phone maintain steady signal cost-division algorithms used application highly efficient taking fraction second compute
+180,SplitPay affect data stored outside servers affect applications installed users phone cause damage phone internal components potential safety concern associated application applies virtually handset apps SplitPay used operating vehicle situation users attention must focused elsewhere
+181,application assumes user whoever he/she allows access his/her Android handset said Google email address required verify identity user upon opening app Since password protected method authenticate users identity could pose thread user set PayPal functionality however transaction involving real currency must authorized confirmed becoming final PayPal API provides security checks needed ensure fraudulent transactions occur
+182,graphical user interface SplitPay designed usability first priority app presented organized manner visually appealing easy user navigate feedbacks visual cues notifications inform users updates pop-ups provide users instructions
+183,ensure reliability correctness zero tolerance errors algorithm computes splits expenses group members maintain flexibility adaptability app take account situations user loses internet connection whatever reason establish connection server users still able use application Bills transactions etc posted disconnected cached connection restored
+184,text elements user interfaces presented selected language language selection see requirement UCAR101 available languages mentioned UCAR002 UCAR003
+185,English available language
+186,Dutch available language
+187,administrator change colors used user interfaces sub-apps main-app include external resources
+188,administrator change fonts used user interfaces sub-apps main-app include external resources
+189,administrator change icons used user interfaces sub-apps main-app include external resources
+190,administrator change buttons used user interfaces sub-apps main-app include external resources
+191,administrator change background used user interfaces sub- apps main-app include external resources
+192,administrator change text elements used user interfaces sub-apps main-app include external resources
+193,language selected main app
+194,default language insApption English
+195,main menu contains launcher Map-app.3.1.3
+196,main menu contains launcher News-app.3.1.4
+197,main menu contains launcher Agenda-app.3.1.5
+198,main menu contains launcher Facebook-app.3.1.9
+199,main menu contains launcher Twitter-app.3.1.10
+200,main menu contains launcher Employee-finder-app.3.1.6
+201,main menu contains launcher Encyclopedia-app Dutch language selected.3.1.7
+202,main menu contains launcher Student handbook-app Dutch language selected.3.1.8
+203,possible like insApption within main menu
+204,possible tweet insApption within main menu
+205,link Twitter settings menu
+206,link Facebook settings menu
+207,settings menu Twitter user save username combination password regarding Twitter
+208,settings menu Facebook user save username combination password regarding Facebook
+209,settings menu Twitter option delete saved username combination password regarding Twitter
+210,settings menu Facebook option delete saved username combination password regarding Facebook
+211,application maintainer modify appearance separate launchers
+212,possible search certain building campus TU/e name
+213,possible search certain building campus TU/e address
+214,possible search certain POI campus TU/e name
+215,search described requirements UCAR201 UCAR202 results displayed set buildings match search input
+216,search described requirements UCAR203 results displayed set POIs match search input
+217,possible view element search result described UCAR201 UCAR202 UCAR203 map view
+218,possible navigate building campus another building campus
+219,possible navigate building campus POI campus
+220,possible navigate POI campus building campus
+221,possible navigate POI campus POI campus
+222,possible navigate POI campus another location campus
+223,possible navigate street campus another location campus
+224,possible switch different means transportation navigator
+225,from-location searched name building
+226,from-location searched address building
+227,from-location searched name POI
+228,from-location selected search result described UCAR211 UCAR212
+229,from-location selected map
+230,to-location searched name building
+231,to-location searched address building
+232,to-location searched name POI
+233,to-location selected search result described UCAR215 UCAR216
+234,to-location selected map
+235,route planned navigator shown map view
+236,application map view stylistic style
+237,application map view satellite style
+238,possible switch stylistic map view satellite map view
+239,possible zoom map view
+240,possible pan map view
+241,Current location shown map view
+242,POIs building indicated
+243,possible tweet users current location
+244,possible change status Facebook new status indicate users current location
+245,administrator change stylistic map
+246,administrator add buildings
+247,administrator remove buildings
+248,administrator add vertices path used route planner
+249,administrator remove vertices path used route planner
+250,administrator remove edges path used route planner
+251,administrator add edges path used route planner
+252,administrator add POIs POI belong certain building floor room number
+253,administrator remove POIs POI belong certain building floor room number
+254,administrator link POI certain building floor room
+255,administrator unlink POI certain building floor room
+256,Titles news items available news RSS-feeds shown title screen
+257,first titles news articles first lines shown
+258,Full news report shown choosing corresponding news title
+259,possible like certain news item
+260,possible tweet certain news item
+261,administrator modify list news RSS-feeds available English
+262,administrator modify list news RSS-feeds available Dutch
+263,agenda-app started upcoming events shown title screen
+264,calender view
+265,possible open calendar view
+266,possible close calendar view
+267,user change calender different month
+268,user able see days events take place calendar view
+269,current day indicated calendar
+270,selecting certain day calendar events day shown
+271,possible search events date
+272,possible search events subject
+273,search described requirements UCAR406 UCAR407 results displayed set events match search input
+274,possible like certain event
+275,possible tweet certain event
+276,events available agenda-app extracted agenda RSS-feeds selected language
+277,administrator modify list agenda RSS-feeds available English
+278,administrator modify list agenda RSS-feeds available Dutch
+279,possible search person name
+280,possible search person department
+281,search described requirements UCAR501 UCAR502 results displayed set employees match search input
+282,possible view personal info available employee pages person search result set requirement UCAR503
+283,possible show location employees office map view see 3.1.3
+284,possible plan route location employees office see 3.1.3
+285,Encyclopedia-app started searched items shown title screen
+286,Encyclopedia-app started recent items shown title screen
+287,possible search book certain word phrase
+288,search described requirement UCAR602 results displayed set topics
+289,user select topic search result list
+290,clicking topic full text regarding topic shown
+291,possible like certain topic
+292,possible tweet certain topic
+293,student handbook-app started searched items shown title screen
+294,search described requirement UCAR702 results displayed set topics
+295,user select topic search result described requirement UCAR703
+296,Facebook-app started page TU/e Facebook shown title screen
+297,TU/e related Facebook-sites selected list see contents list requirement UCAR803
+298,administrator modify list TU/e related Facebook-sites
+299,Twitter-app started page TU/e Twitter shown title screen
+300,TU/e related Twitter-sites selected list see contents list requirement UCAR903
+301,administrator modify list TU/e related Twitter-sites
+302,Download mobile application DESC user able download mobile application either application store similar service mobile phone application free download
+303,Download notify users new releases DESC new/updated version release software released user check manually download new release done mobile phone way downloading mobile application
+304,User registration Mobile application DESC Given user downloaded mobile application user able register mobile application user must provide user-name password e-mail address user choose provide regularly used phone number
+305,User log-in Mobile application DESC Given user registered user able log mobile application log-in information stored phone future user logged automatically
+306,Retrieve password DESC Given user registered user able retrieve his/her password e-mail
+307,Mobile application Search DESC Given user logged mobile application first page shown search page user able search restaurant according several search options search options Price Destination Restaurant type Specific dish also free text search option user able select multiple search options one search
+308,Mobile application Search result map view DESC Search results viewed map map relevant closest restaurants according users position shown specific pin represent specific restaurant location pin information link maximally 100 results displayed map view default zoom map view include button selected display different filtering options filtering menu
+309,Mobile application Search result list view Search results viewed list element list represents specific restaurant element include restaurant name telephone number type food distance according users position average price short two-line description link restaurants web-page information link maximally 100 results displayed result contains restaurants displayed screen one time user able scroll searching price restaurants sorted according following order 1. average price 2. distance 3. restaurant type 4. specific dish searching search option price restaurants sorted according following order 1. distance 2. average price 3. restaurant type 4. specific dish list view include header different selectable sorting options list view include button selected display different filtering options filtering menu
+310,Mobile application Navigation restaurant DESC user able select pin map element list selection made location restaurant sent mobile phones GPS-navigation program user navigated destination destination reached user able go back search page mobile application
+311,Mobile application Switch result view DESC user able switch map view list view search options
+312,Mobile application Selecting information link DESC user able select information link included result items link direct user information page includes picture restaurant restaurant name address phone number e-mail address type food average price restaurant description menu name description price different dishes
+313,Mobile application Search price DESC user able input maximum minimum price range result displayed list view default
+314,Mobile application Search destination DESC user able input maximum minimum distance according his/her position default minimum distance set 0 km maximum 10 km user able input higher lower maximum distance higher minimum distance set default result displayed map view default
+315,Accepted input price destination search DESC Integers accepted input user searches price destination system receives invalid input user informed prompted insert accepted input
+316,Mobile application Search restaurant type DESC user able select restaurant type given list input result displayed map view default
+317,Mobile application Search specific dish DESC user able select specific dish given list input result displayed map view default
+318,Mobile application Free-text search DESC user able conduct search providing either restaurant name restaurant description restaurant address restaurant type restaurant menu free-text search field result displayed map view default
+319,Mobile application match found DESC match found user informed kept search page order get possibility conduct new search right away
+320,Mobile application Sorting results DESC viewing results list user able sort results according price distance restaurant type specific dish restaurant name sorting restaurant name specific dish restaurant type results ordered alphabetically sorting price results ordered cheapest expensive sorting distance results ordered closets furthest distance according users position sort button specific search option clicked order reversed ordered descending matter sort button clicked order results reversed
+321,Mobile application Filtering results DESC viewing results list map user able filter results filtering menu filtering options include increasing decreasing maximum distance increasing decreasing maximum price choosing restaurant type choosing specific dish
+322,Mobile application Profile page DESC mobile application user profile page profile page user edit his/her information includes password e-mail address phone number user also able choose language mobile application set different language choices Swedish English Spanish French
+323,Required information registration Given restaurant owner wants create account restaurant owner account restaurant owner registers web-portal providing user-name password address e-mail address phone number restaurant owner able apply verification
+324,Full information registration Given restaurant owner wants create account restaurant owner account restaurant owner registers web-portal providing user name password address e-mail address phone number mobile number restaurant owner able apply verification
+325,Confirmed registration Given restaurant owner applied verification received confirmation e-mail registration restaurant owner receives confirmation e-mail restaurant owner able log
+326,Successful log-in Given restaurant owner wants log restaurant owner logs his/her account restaurant owner logged restaurant owner
+327,Retrieve password Given restaurant owner wants log lost password restaurant owner enters his/her email address Retrieve password form submits form restaurant owner receive email containing password
+328,Show fields managing information Given restaurant owner logged restaurant owner wants manage information restaurant owner able manage information form
+329,Filling mandatory fields Given restaurant owner wants fill mandatory fields form restaurant owner provides average price address e-mail address phone number restaurant name restaurant owner filled mandatory fields form
+330,Filling optional fields Given restaurant owner restaurant wants fill optional fields form restaurant owner provides restaurant description menu type restaurant picture restaurant mobile phone restaurant owner filled optional fields form
+331,Filling menu field Given restaurant owner wants fill menu field form restaurant owner provides dish name dish description dish price restaurant owner filled menu field form
+332,Adding information mandatory fields Given restaurant owner filled mandatory fields form restaurant owner submits form information restaurant added
+333,Adding information mandatory optional fields Given restaurant owner filled mandatory fields form filled one optional fields form restaurant owner submits form information restaurant added
+334,Deleting information Given restaurant owner logged information exists restaurant owner deletes information information deleted
+335,Editing information Given restaurant owner logged information exists restaurant owner edits information information edited
+336,Select English preferred language Given restaurant owner wants select preferred language restaurant owner selects English new language web-portal show text English
+337,Select Swedish preferred language Given restaurant owner wants select preferred language restaurant owner selects Swedish new language web-portal show text Swedish
+338,Select French preferred language Given restaurant owner wants select preferred language restaurant owner selects French new language web-portal show text French
+339,Select Spanish preferred language Given restaurant owner wants select preferred language restaurant owner selects Spanish new language web-portal show text Spanish
+340,Successful log-in Given administrator wants log administrator logs administrator account administrator logged administrator
+341,Verify restaurant owner Given administrator logged administrator verifies restaurant owner restaurant owner able log restaurant owner notified confirmation email
+342,Reject restaurant owner Given administrator logged administrator rejects restaurant owner restaurant owner able log restaurant owner notified rejection email
+343,Add new restaurant type Given administrator logged administrator creates new restaurant type new restaurant type added list restaurant types
+344,Editing existing restaurant type Given administrator logged administrator edits existing restaurant type restaurant type updated list restaurant types
+345,Delete restaurant type Given administrator logged administrator deletes restaurant type deleted restaurant type removed list restaurant types
+346,Add new dish Given administrator logged administrator creates new dish new dish added list dishes
+347,Editing existing dish Given administrator logged administrator edits existing dish dish updated list dishes
+348,Delete dish Given administrator logged administrator deletes dish deleted dish removed list dishes
+349,Add restaurant information Given administrator logged administrator adds restaurant information information added restaurant
+350,Delete restaurant information Given administrator logged information restaurant exists administrator deletes information information restaurant deleted
+351,Edit restaurant information Given administrator logged information restaurant exists administrator edits information information restaurant edited
+352,Edit existing users information Given administrator logged administrator edits existing user user information updated
+353,Delete/Inactivate existing user Given administrator logged administrator deletes existing user user deleted
+354,Add new restaurant owner Given administrator logged administrator creates new restaurant owner new restaurant owner added
+355,Edit existing restaurant owner Given administrator logged administrator edits existing restaurant owner restaurant owner information updated
+356,Delete existing restaurant owner Given administrator logged administrator deletes existing restaurant owner restaurant owner deleted restaurant information deleted
+357,Select English preferred language Given administrator wants select preferred language administrator selects English new language web-portal show text English
+358,Select Swedish preferred language Given administrator wants select preferred language administrator selects Swedish new language web-portal show text Swedish
+359,Select French preferred language Given administrator wants select preferred language administrator selects French new language web-portal show text French
+360,Select Spanish preferred language Given administrator wants select preferred language administrator selects Spanish new language web-portal show text Spanish
+361,Prominent search feature DESC search feature prominent easy find user
+362,Usage search feature DESC different search options evident simple easy understand
+363,Usage result list view DESC results displayed list view user friendly easy understand Selecting element result list take one click
+364,Usage result map view DESC results displayed map view user friendly easy understand Selecting pin map take one click
+365,Usage information link DESC information link prominent evident usable link Selecting information link take one click
+366,case user enters his/her username name surname password mail address sets profile photo user fills necessary fields activation mail sent users mail address User able log start using system activating his/her account
+367,case user enters his/her username email his/her password logs system
+368,case user touches log button logs system user use system he/she logs
+369,case user able search items User search items according price location category
+370,case user able browse profiles users User see users user names profile photos users items
+371,case user able browse categories according his/her wishes User also see many items category
+372,case user able browse items User see items pictures prices features
+373,case user change his/her username email address profile picture password user changes his/her username password notification mail sent users email address changes apply user clicks link email
+374,case user buy credits system He/she use credit card his/her PayPal account
+375,case user add items he/she likes cart touching Add cart button
+376,case user buy items he/she added cart credits items available buying credits
+377,case item user wants available exchange user request exchange items he/she item he/she wants
+378,case user approve exchange offered another user clicking Approve button
+379,case user decline exchange offered another user clicking Decline button
+380,case user notifies user shipment item started
+381,case user add many items he/she wants user also set price set amount upload pictures item add details item
+382,case user edit items he/she already put system user add/remove pictures change price details item
+383,case user longer wishes sell/exchange item he/she remove item system touching Remove item button
+384,case user longer wishes use system he/she click Delete Profile button deleting profile user longer able use system account details entered
+385,case user mark item favorite notified change made item
+386,case user rate comment users traded
+387,client send GET request Web API question URL parameter client specify header Content-Type application/json requests convention valid API query single URL parameter containing one sentence question standard English
+388,server reply either data error see R4.1.3.5 client able parse JSON determine error server send API data JSON response documents header Content-Type application/json server respond 200 OK status code request header Content-Type application/json valid API query server respond 400 Bad Request status code request specify header Content-Type application/json malformed API query
+389,API responses defined JSON specified RFC 7159 JSON object root every API response response document contain least one following top-level members Data documents primary data case response clients query Errors array error objects stating went wrong clients request issues arise top-level members specified R4.1.3.3 coexist JSON document data present errors absent vice versa
+390,unit receive text string URL parameter unit identify important words sentence replace generic representations preceded escape character example PISB becomes building unit output sentence string described R4 unit output map generic representations words replaced
+391,unit list generic words related specifically potential queries examples building professor
+392,error process means problem parsing sentence creating generic question case return message Sorry didnt understand
+393,unit receive output sentence Generic Question Construction unit input R4.2.1.3
+394,unit generate generic answer sentence using input example time building close becomes building closes closetime unit output generic answer sentence described
+395,error unit failed create generic answer given generic sentence case simply fallback error handling described R4.4.2.1
+396,unit receive input mapping Generic Question Construction unit
+397,unit receive input generic answer Generic Answer Construction unit
+398,unit query database data elements mapping
+399,unit replace representations generic answer data
+400,unit output answer original question described R4.4.1.3
+401,querying database provide answer system say answer provide appropriate website link user could find answer Example message dont know Rush Building closes website building
+402,system could find appropriate website associated question system return generic error message Sorry couldnt find answer
+403,MySQL database used store information required answer questions
+404,database populated information extraction unit rest system available information readilyaccessible
+405,database use generic representations R4.2.2.1 table names column headers easier retrieval data
+406,database updated periodically API unavailable update
+407,Structural data sources data stored database
+408,data enough structuring web scraping used programmatically extract data needed store database
+409,totally unstructured information AI libraries used programmatically extract store information possible
+410,Data especially hard extract whatever reason manually extracted added database developer
+411,GUI textbox accept inputs keyboard
+412,Text box originally contain suggestive text question guide user format appropriate question
+413,GUI Send button sends text textbox API clicked
+414,GUI chat window displaying questions sent system responses API
+415,chat window contain questions answers current session scroll bar messages cant fit screen
+416,network issue chat window display error message
+417,designated phone number users send texts
+418,Texts sent number sent API system reply user answer another text message
+419,question understood API system send text containing example question text API response
+420,Upon USB plugged system shall able deployed operational less 1 minute
+421,system shall able handle 1000 customers logged concurrently time

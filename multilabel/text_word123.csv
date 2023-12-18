@@ -1,0 +1,556 @@
+,Requirement
+0,system shall refresh display every 60 seconds
+1,application shall match color schema set forth Department Homeland Security
+2,projected data must readable 10x10 projection screen 90 viewers must able read Event Activity data viewing distance 30
+3,product shall available normal business hours long user access client PC system available 99 time first six months operation
+4,projected data must understandable 10x10 projection screen 90 viewers must able determine Events Activities occuring current time viewing distance 100
+5,product shall ensure accessed authorized users product able distinguish authorized unauthorized users access attempts
+6,product shall intuitive self-explanatory
+7,product shall respond fast keep up-to-date data display
+8,system shall MDI form allows viewing graph data table
+9,system shall display Events vertical table time
+10,system shall display Events graph time
+11,business rules specified Disputes System shall compliance guidelines Regulation E Regulation Z
+12,Disputes application must maintain detailed history every action user takes dispute case ensures complete audit trail questions arise later regard particular dispute case
+13,actions modify existing dispute case must recorded case history
+14,Disputes System must accessible internal external users
+15,Disputes System must prevent users accessing dispute cases belong cardholder base
+16,Disputes System facilitate direct data entry dispute case via user interface supports real time responses users
+17,Disputes System must provide different levels access regard disputes case initiation follow-up actions
+18,Disputes System shall provide view access capability authorized users application
+19,Disputes System shall provide update access capability authorized users application
+20,Disputes System must allow users select disputable transactions based age transaction user interface initiate dispute ticket retrieval request chargeback notification selected transaction
+21,Disputes System must provide user ability initiate single dispute case multiple transactions belong single merchant
+22,Disputes System provide user ability create initiate ticket retrieval request part ticket retrieval creation process system must prompt user enter required information create ticket retrieval request ticket retrieval request document sent merchant inquiring validity transaction
+23,Disputes System must allow user create three unique types ticket retrieval requests three types ticket retrieval requests 1 Request original receipt 2 Request copy receipt 3 Request portfolio portfolio consists documentation would provide proof purchase documentation received car rental agency sales receipt
+24,Disputes System must prevent external users requesting original receipts Requests original receipts restricted internal users
+25,Disputes System must provide confirmation user upon creation ticket retrieval request contains following information dispute case number type retrieval requested copy original portfolio date merchant response due
+26,Disputes System shall allow user create initiate chargeback request system must prompt user enter required information initiate chargeback request chargeback request results printed chargeback notification sent merchant indicating account charged back proof provided disputed transaction valid
+27,Disputes System must provide confirmation user upon creation chargeback request confirmation must contain following information dispute case number type chargeback requested pending immediate date merchant response due
+28,Disputes System shall prevent creation duplicate dispute requests 100 time
+29,Disputes System shall accurately provide list possible reason codes given transaction list possible reason codes must derived based type transaction industry merchant belongs according business rules defined Disputes System
+30,Disputes System must provide ability view existing dispute cases
+31,Disputes System must provide Search functionality search method must include ability search 1 dispute case number 2 merchant account number 3 cardmember account number 4 issuer number addition criteria search functionality must allow user limit results search date range type dispute ticket retrieval request chargeback notification case status open closed dispute reason code
+32,list disputes cases meet entered search criteria must provided user list cases must differentiate type and/or status case color -coding line item list example open cases yellow closed cases gray
+33,Disputes System shall provide users ability view history activities occurred dispute case
+34,Dispute System shall provide users ability follow dispute case via follow-up actions list available follow actions given dispute case must filtered status case access level user
+35,Disputes System shall record name user date activity creates modifies disputes case system detailed history actions taken case including date user performed action must maintained auditing purposes
+36,systematic non-user initiated action occurs case disputes aging process case activity generated Upon next logon user initiated dispute case must notified systematic action occurred dispute case
+37,letter requests must formatted according guidelines specified Print Letter Utility system
+38,disputes cases closed 6 months must purged online disputes database
+39,product must support Internet Explorer 5.5
+40,product must support Mozilla Firefox 1.0
+41,product shall interface Choice Parts System provides feed recycled parts data
+42,product shall run existing hardware environments
+43,product shall adhere corporate Architecture guidelines
+44,product shall comply corporate User Interface Guidelines
+45,product shall comply corporate color scheme
+46,appearance product shall appear professional
+47,software product expected run Windows Linux platforms
+48,product shall easy use Adjusters Collision Estimators 95 Adjusters Collision Estimators shall find product easy use
+49,product shall increase productivity Collision Estimators 80 Collision Estimators shall agree productivity increase within 1 month using product
+50,Users shall feel satisfied using product 85 users satisfied product
+51,product shall easy learn Adjusters Collision Estimators product shall learned two days onsite training
+52,user shall easily locate instructions using product User help found within 90 system
+53,search recycled parts shall take longer 15 seconds search results shall returned 15 seconds
+54,search preferred repair facility shall take longer 8 seconds preferred repair facility returned within 8 seconds
+55,recycled parts audit report shall returned user within 10 seconds audit report shall returned within 10 seconds
+56,preferred repair facility ratings shall saved within 5 seconds save shall occur within 5 seconds
+57,product shall adhere corporate online availability schedule application brought within 98 scheduled outages per availability schedule
+58,product shall achieve 98 uptime product shall fail 2 available online time
+59,product shall able handle 1500 simultaneous users system shall perform 1500 users time
+60,average number recycled parts records per day shall 50 000
+61,product shall able handle 10 000 concurrent users within 2 years initial launch
+62,estimators product shall able operated repair facility dirty noisy conditions
+63,product shall interface ChoiceParts system per day approximately 1
+64,maintenance product fall within established corporate maintenance windows
+65,product shall supported using corporate support center
+66,Product installations upgrades shall handled middleware technology team within established launch time frames
+67,adjusters request recycled parts audit reports users without adjuster role shall request recycled parts audits
+68,adjusters supervisor role update preferred repair facility ratings Users without supervisor role access repair facility ratings
+69,collision estimators shall search recycled parts Users without collision estimator role shall access search recycled parts
+70,valid data shall entered system invalid data shall entered system
+71,One insurance company shall able view another insurance companys claim data
+72,product shall free computer viruses
+73,system shall prevent malicious attacks including denial service
+74,product must comply Sarbanes-Oxley
+75,product shall comply estimatics laws relating recycled parts usage
+76,product shall comply insurance regulations regarding claims processing
+77,user shall search preferred repair facility using vehicle vehicle location radius miles
+78,vehicle data shall include vehicle year make model
+79,vehicle location shall include street address city state zipcode
+80,system shall resolve zipcode street address city state zipcode unknown
+81,search radius shall 1 30 miles
+82,system shall locate preferred repair facility highest ratings input criteria
+83,adjuster shall enter preferred repair facility estimate assignment
+84,adjuster shall able override preferred repair facitlity estimate assignment
+85,preferred repair facility shall returned user
+86,system shall return list repair facilities within radius preferred repair facility determined
+87,estimator shall search available recycled parts using damaged vehicle parts information
+88,estimator shall search available recycled parts using list preferred parts suppliers
+89,system shall search available recycled parts supplied vehicle parts suppliers
+90,estimator shall search zipcode radius 30 miles parts found preferred parts suppliers
+91,system shall retain available recycled parts suppliers returned search
+92,available recycled parts information suppliers shall returned user
+93,estimator shall apply selected recycled parts collision estimate
+94,estimator shall apply recycled parts collision estimate available parts returned
+95,adjuster shall review collision estimate
+96,adjuster shall request recycled parts audit collision estimate
+97,recycled parts search results provided estimator shall retrieved system
+98,system shall generate audit report based available recycled parts collision estimate
+99,audit report shall include total number recycled parts used estimate
+100,audit report shall include number available recycled parts original search results
+101,audit report shall include percentage available recycled parts used estimate
+102,audit report shall include total score audit sums indivual line items
+103,audit report shall displayed user
+104,audit report shall available adjusters later points time
+105,user shall select view preferred repair facility ratings
+106,current repair facility ratings shall displayed user
+107,system display blank set ratings ratings yet defined
+108,user shall enter new ratings based audit report
+109,ratings shall scale 1-10
+110,ratings shall include categories attempted use recycled parts actual use recycled parts
+111,user shall select save preferred repair facility ratings
+112,preferred repair facility ratings shall saved system
+113,product must work database management systems DBMS market whether DBMS colocated product machine located different machine computer network
+114,product function alongside server software operating system Java runtime installed
+115,product require collaboration database management system DBMS DBMS may located machine product separate machine residing computer network
+116,product must make use web/application server technology Open source examples include Apache web server Tomcat JBoss application server
+117,database management system Oracle DB2 MySql HSQL need integrated product
+118,product Look Feel shall able incorporate aspects customer organization logo branding identity
+119,product shall conservative professional appearance
+120,product shall make users want use 80 users surveyed report regularly using product first 2 weeks post-launch
+121,product shall easy use 90 users able successfully reserve conference room within 5 minutes product use
+122,product shall give users feedback necessary 80 users surveyed report product accurately confirms actions
+123,product shall allow user select chosen language one target market countries
+124,product shall allow customization start page views preferences
+125,employee able successfully use product within minutes informally navigating product less 15 minutes users shall able successfully setup meetings reserve conference rooms
+126,product shall use standard navigation menu familiar web users
+127,product shall allow intuitive searching available conference rooms
+128,product shall conform Americans Disabilities Act
+129,response shall fast enough avoid interrupting user flow thought 90 tasks shall complete within 5 seconds 98 tasks shall complete within 8 seconds
+130,Aside server failure software product shall achieve 99.99 time
+131,product shall create exception log problems encountered within product transmission company analysis resolution
+132,product shall capable handling 1 000 concurrent requests number increase 2 000 Release 2 concurrency capacity must able handle peak scheduling times early morning late afternoon hours
+133,product shall able process 10 000 transactions per hour within two years launch number increase 20 000 Release 2
+134,product shall expected operate least 5 years customer installation
+135,product shall used office environments
+136,product must able interface HTML browser product shall transmit data user product without problems product shall display HTML properly 80 HTML browsers tested minimum test 8 browsers
+137,product must able interface various database management systems product shall communicate successfully database management system 100 transactions
+138,product must able interface various email servers product shall able send email
+139,product shall available distribution via Internet binary ZIP file
+140,product shall available distribution packaged CD
+141,product available licensing one-server two-five servers five-or-more servers license
+142,new user must able added system within 10 minutes 90 new users able log system within 10 minutes
+143,product must designed using Design Patterns coding best practices 90 maintenance software developers able integrate new functionality product 2 working days
+144,product must highly configurable use various database management systems end users 80 end users able integrate new database management systems product without changing product software code
+145,Maintenance releases offered customers year releases shall take longer 5 minutes 80 customer base install
+146,Every registered user access product support site via Internet 70 registered users shall find solution problem within 5 minutes using support site
+147,customer shall able easily integrate new building maps product throughout product lifecycle Integration new maps product shall possible little support product support staff
+148,product shall translated foreign languages target market countries languages future releases emerging target market shall take 5 days configure product market language
+149,product expected integrate multiple database management systems product operate Oracle SQL Server DB2 MySQL HSQL MS Access
+150,product shall able installed operating environment within 2 days
+151,product shall ensure company employees external users company-approved user IDs may product access 100 logons shall either company employees external users company-approved user IDs
+152,managers able perform search queries reservations user 100 search queries reservations user shall logons management logons
+153,product shall ensure database data corresponds data entered user conference room reservation system contain information entered user
+154,product shall prevent input malicious data product and/or adjacent hardware/software systems data shall remain 100 uncorrupted time malicious data input product
+155,product and/or dependent databases/filesystems shall remain operational result input malicious data product and/or dependent databases/filesystems shall crash 100 time malicious data input product
+156,product shall ability receive automatic software updates new threats emerge 100 customers able receive automatic software updates transmitted installed product
+157,language product shall accommodate target market countries 90 survey respondents target market country find language product acceptable
+158,product shall able display calendar dates times according user locale 90 survey respondents target market country find date time formatting product correct
+159,product must developed J2SE/J2EE programming language libraries
+160,product shall record meeting entries
+161,product notify employees meeting invitations
+162,product shall ability send meeting reminders employees
+163,product shall assign organizers contact information meeting create
+164,product record meeting acknowledgements
+165,product shall store new conference rooms
+166,product shall update existing conference rooms
+167,product able delete conference rooms
+168,product shall able store new room equipment
+169,product update existing room equipment
+170,product shall able delete room equipment
+171,product shall allow organizer invite employees meetings
+172,time conference room reserved conference room schedule shall updated reflect time date reservation
+173,product shall record transportation status equipment reserved
+174,product shall display map company building showing conference room locations
+175,product shall record updated meeting agendas
+176,product shall send meeting confirmation meeting organizer
+177,product shall display room equipment according search parameters
+178,product shall display conference rooms according search parameters
+179,product shall record different meeting types
+180,product shall record equipment reserved
+181,product shall notify building personnel equipment transport requests
+182,product allow priviledged users view meeting schedules multiple reporting views
+183,product shall able send meeting notifications via different kinds end-user specified methods
+184,product shall customizable Look Feel
+185,product shall intuitive user interface
+186,product display available status unreserved conference rooms
+187,Recreation Inventory Quantity Adjustment period previous 30 days shall take 30min
+188,System shall allow minimum 6 users work time
+189,System shall utilize currently owned computer equipment
+190,System shall able automatically backup business data restore demand
+191,System shall maintain consistent security changes user passwords and/or permissions take affect parts System
+192,System shall granularly control access rights major subsystems possible assign access rights subsystems independently
+193,System shall meet applicable accounting standards final version System must successfully pass independent audit performed certified auditor
+194,System shall require additional third party licenses resulting royalty fees
+195,System shall allow generation Inventory Quantity Adjustment documents demand
+196,System shall allow demand generation Inventory Quantity Adjustment documents since certain point time
+197,IQA subsystem shall take account current inventory status adjust inventory substitutionary ingredients accordingly
+198,System shall allow entering storing modifying product formulas
+199,Product formulas shall allow use semi-products formulas
+200,Product formula ingredients shall allow defining substitutionary ingredients
+201,Product formula substitutionary ingredients shall entered automatically PFE subsystem
+202,Formula substitutionary ingredients shall kept persisted order
+203,Product shall allow entering storing modifying product menus used POS terminals
+204,PME Subsystem shall allow building product menus based list products kept accounting system
+205,PME Subsystem shall allow keeping submenus within menus products within submenus managed persisted order
+206,PME Subsystem shall allow product exist one submenu
+207,RMS System shall Windows XP look feel use GUI futures making use intuitive
+208,System shall generate Inventory Quantity Adjustment document based product daily sales data product formulas
+209,System shall generate Inventory Quantity Adjustment document automatically daily Product Sales data available
+210,Administrator shall able activate pre-paid card via Administration section 5 seconds
+211,Customer shall able check status prepaid card entering PIN number 5 seconds
+212,System shall let customers register website pay go user 5 minutes
+213,System shall let customers register website unlimited movie subscriber user 10 minutes
+214,System shall let existing customers log website email address password 5 seconds
+215,System shall let customers cancel account process shall take longer 2 minutes Database mark account inactive user able log website
+216,System shall let administrator de-activate customer account 1 minute Customer longer able access website
+217,System shall let administrator add/remove movies website 5 minutes Entered movie information stored database available website
+218,System shall let administrator add/remove categories website 5 minutes
+219,System shall let Izogn Manager access sales usage statistics 2 minutes
+220,System shall let administrators generate unique pre-paid pins 2 minutes generate Excel file generated PINs
+221,website shall attractive audiences website shall appear fun colors bright vibrant
+222,website African feel alienate non-Africans website use animation pages describing services grab users attention encourage sign
+223,website design modern clean concise
+224,product able used 90 novice users Internet
+225,Users navigate maximum 4 pages create account website
+226,Users able access streaming movies 2 clicks logging website
+227,anonymous survey show 70 customers comfortable purchasing streaming movies 2 weeks using website
+228,anonymous survey show 95 customers comfortable using purchasing pre-paid cards month using system
+229,product shall retain customer buying preferences information
+230,product shall easy customers novice skills Internet purchase watch streaming movies Customers able purchase watch pre-determined movie 3 minutes
+231,product shall use symbols words naturally understandable users familiar websites
+232,website use standard Internet conventions interacting user
+233,interface user automated system shall maximum response time 5 seconds unless noted exception
+234,purchasing streaming movie pre-paid card via credit card processing time maximum response time 15 seconds
+235,streaming movie buffering time take longer 10 seconds plus latency user connection
+236,streaming movie buffering occur latency user connection
+237,credit card information secured server accessible authorized Izogn administrators Information encrypted database
+238,website shall available use 24 hours per day 365 days per year
+239,website shall achieve 99.5 time
+240,movies shall streamed demand time day
+241,website shall continue operate streaming server goes
+242,website shall continue operate payment gateway goes
+243,streaming server support 50 simultaneous streaming connections
+244,streaming server support maximum 700 movies new servers added support movies
+245,server support maximum 1 000 simultaneous users
+246,website shall capable supporting 100 000 customers
+247,product shall expected operate within maximum maintenance budget minimum 2 years
+248,aspects website shall accessed web browser Internet
+249,hardware supporting current website used support new system
+250,must able interface following browsers
+251,Website must interface CyberSource API process credit card transactions
+252,Website must fully operational MSN TV2
+253,Movies shall encoded streamed via Windows Media Player 9.0
+254,Movies shall encoded 56k 256k streams
+255,Promotional updates website take day update
+256,Izogn Administrator must able update category listings website within 2 minutes
+257,Izogn Administrator must able add new products website within 2 minutes
+258,system provide 24 hour 800 toll free number support customers
+259,website provide help section answers solutions common problems
+260,Velkat staff available phone support 7am-7pm M-F provide technical support Izogn administrators
+261,product shall able installed specified environment within 1 working day
+262,registered customers purchase streaming movies
+263,customer stream movie purchased within 2 day viewing period
+264,authorized personnel access customer records database
+265,administrators activate pre-paid card
+266,authorized personnel access sales information
+267,website shall prevent data corrupted incorrect data entered
+268,website shall protect intentional abuse notify administrator occurrences
+269,Data integrity scripts run weekly basis verify integrity database
+270,website shall make user aware information practices collection data via Privacy Policy accessible pages website
+271,system shall notify customers changes information policy
+272,system shall reveal private information compliance organization information policy
+273,customer information stored secure database accessible authorized personnel
+274,credit card information encrypted database
+275,streaming server anti-virus software prevent infection malicious viruses
+276,website cater tribes Nigeria
+277,website shall offensive religious ethnic groups
+278,website appeal Africans Nigerians
+279,website use Flash provide animation home page
+280,IzognMovies shall meet licensing requirements set forth appropriate organizations order stream African movies
+281,website comply W3C standards
+282,PHP code comply PEAR standards
+283,website allow customers search movies title actor director
+284,viewing movie details website display movies description actor director entered administrator
+285,Website shall request authorize credit card payment allowing user stream movie
+286,shall able stream purchased movie via Windows Media Player 2 days aftere purchase date
+287,Website shall allow customers browse movies categories entered izogn administrator
+288,Website shall allow customers view reviews selected movies customers
+289,Website shall allow customers add movie review selected movie
+290,Website shall allow Izogn administrator approve review posted customer
+291,System allow customers pay streaming movie pre-paid card
+292,Website shall allow customers purchase pre-paid cards 5 10 20 value either credit card mail-in payment option
+293,System shall automatically update main page website every Friday show 4 latest movies added website
+294,System shall allow users update billing contact information via Account section website
+295,Pre-paid cards shall distributed via email via printed paper card
+296,registered customers purchase streaming movies
+297,Movies streamed customer purchased movie within 2-day time period stream movie
+298,Website must able support free trial periods various parameters set Izogn Manager
+299,streaming movie sales logged database accessible administrator
+300,registered customer information shall stored maintained database even customer cancels account
+301,Daily usage statistics logged accessible administrator
+302,owner shall free access streaming movies
+303,Total lead cycle time must completed 5 minutes 90 lead volume business hours 8AM CST 8PM CST 3 minutes 99 lead volume business hours
+304,lead evaluation complete time period longer 25 seconds 97 leads processed
+305,leads process longer 25 seconds system record event duration
+306,process must fit within processing time conditions set forth Auto Rep Assignment process lead assigned within 3 minutes total life cycle
+307,lead washing process operate within established physical web service structure
+308,washing process must use non binding neutral data format xml receiving processing lead data
+309,Defect reports available technical units 24x7 basis
+310,Washing parameters updated scheduled maintenance hours
+311,vendor verify invalid lead
+312,Vendor submit credit validation record applied enterprise billing system
+313,lead scored high range system supply lead data score enterprise system
+314,leads washing functionality validate leads received web service valid data
+315,leads washing functionality insert leads captured web service
+316,leads score falls within high average score process ARA functionality
+317,leads score falls within medium average set manual verification Enrollment Coordinator eleads system
+318,leads score falls within low average returned supplying vendor
+319,leads washing functionality compile contact academic scoring information total score
+320,leads washing functionality use parameters supplied corporate schools score part lead
+321,leads washing functionality return lead data supplied vendor along reason rejection
+322,leads washing functionality interface lead data parameters maintained
+323,leads washing functionality verify users authentication rights make parameter updates
+324,leads washing functionality store potential lead duplicates returned enterprise system
+325,Prior submitting lead enterprise system leads washing functionality assign lead admissions rep
+326,leads washing functionality shall receive period list available reps enterprise system
+327,product shall simulate look ships sea
+328,product shall display grids within circle view periscope
+329,product shall display type ship grid using image specific type ship
+330,offensive player takes shot product shall simulate sound ship sea
+331,shot marked miss product shall simulate sound shot missing target
+332,shot marked hit product shall simulate sound shot hitting target
+333,ship sunk product shall simulate sound sinking ship
+334,product shall available 24 hours per day seven days per week
+335,product shall able handle large number games simultaneously
+336,response time shall fast enough maintain flow game response time shall 2 seconds 95 responses 4 remaining responses
+337,product shall protect identity players product shall provide players access information might reveal identity another player
+338,product shall intuitive self-explanatory Nine ten users shall able successfully complete game training
+339,product shall available players understand English Spanish French product shall allow user select language upon accessing product
+340,product shall provide players access information might reveal identity another player
+341,response time shall fast enough maintain flow game response time shall 2 seconds 95 responses 4 remaining responses
+342,product shall maintain list players
+343,product shall allow user identify player
+344,game initiated product shall make players assigned game unavailable selection list players
+345,product shall allow user remove list players time
+346,product shall make inactive players unavailable selection list players
+347,product shall remove players inactive 24 hours list players
+348,product shall allow player initiate game selecting another available player list players
+349,game initiated product shall display defensive grid player
+350,game initiated product shall display offensive grid player
+351,product shall prevent player viewing offensive defensive grids player
+352,game initiated product shall allow player position 5 ships respective defensive grids
+353,product shall allow player position ships horizontally grid
+354,product shall allow player position ships vertically grid
+355,product shall allow player position ships diagonally grid
+356,product shall prevent player overlapping ships grid
+357,players positioned 5 ships defensive grids product shall define status player first turn
+358,turn product shall identify one player offensive status one player defensive status
+359,product shall maintain status player turn either offensive defensive
+360,start turn product shall notify player status
+361,turn product shall allow offensive player define shot
+362,shot product shall examine defensive grid defensive player determine whether shot hit miss
+363,shot product shall notify players whether shot hit miss
+364,shot product shall mark shot hit miss defensive grid defensive player
+365,shot product shall mark shot hit miss offensive grid offensive player
+366,hit results sinking ship product shall notify players ship sunk
+367,hit results sinking ship product shall mark ship sunk defensive grid defensive player
+368,hit results sinking ship product shall indicate type ship sunk defensive grid defensive player
+369,hit results sinking ship product shall mark ship sunk offensive grid offensive player
+370,shot marked hit product shall allow offensive player define shot
+371,shot marked miss product shall change status offensive player defensive
+372,shot marked miss product shall change status defensive player offensive
+373,product shall continue assign turns game ended
+374,product shall end game hit offensive player results sinking last defensive player ships previously marked sunk
+375,product shall allow player end game time game
+376,game ended product shall notify players game ended
+377,notification game ending include reason game ended i.e player game player ended game
+378,game ended product shall allow player identify available player list players
+379,game ended product shall allow player remove list players
+380,system shall easy use callers supervisors Callers supervisors must able accomplish system task within 2 minutes
+381,system shall easy learn callers supervisors Callers supervisors shall learn use system within 10 minutes
+382,system shall responsive DePaul TeleServices Center supervisor uses system view callers schedule system response time must 2 seconds 90 time 5 seconds rest time
+383,56k connection system response time operations must 6 seconds 90 time
+384,112k connection faster system response time operations must 3 seconds 90 time
+385,system shall high availability every day year.The system must available use 12
+386,system must available use 7
+387,product shall internet browser independent.The product must run using Internet Explorer Netscape Navigator
+388,product shall ensure supervisors advertise empty time slots.The product must ensure supervisors allowed access advertise empty time slots
+389,product shall ensure supervisors enter caller schedule.The product must ensure supervisors allowed access advertise empty time slots
+390,product shall ensure supervisors view schedule callers.The product must ensure supervisors allowed access advertise empty time slots
+391,interface shall simple look interface usability survey 90 beta testers must report interface adequately simple
+392,interface shall appealing callers supervisors interface usability survey 80 beta testers must report interface appealing
+393,product shall provide GUI based Monitoring Services.System Administrators shall monitor message exchanges predict determine problems also provide internal external support
+394,product shall comply City Chicago Application Development Guide Framework.Application Development Framework provide structured Graphical User Interface
+395,product shall provide Monitoring Services.The product shall easy System Administrators DBAs use two weeks usage
+396,product shall provide Error Tracking Services.The product shall help System Administrators DBAs resolve transaction errors 99 time
+397,product shall provide Portals.The product shall help System Administrators analyze transactions ad-hoc reporting KPIs Key Performance Indicators
+398,product shall provide Asynchronous Messaging.The product shall provide asynchronous messaging enable parallel processing reduce overhead communications
+399,product shall provide Multi-threading Load Balancing.The product shall provide multi-threading technology well load balancing overcome data load spikes traffic
+400,product shall process messages within 2 seconds.The product shall maximum message processing time 2 seconds
+401,product shall poll system messages every second.The product shall poll system new messages maximum every 1 second
+402,product shall provide Dynamic Change Support Transparent resource addition.The product shall support Transparent Resource addition Dynamic Change support provide scalability avoid service interruptions 1 day
+403,product shall available 99 time Rationale
+404,product shall robust.The product shall fault avoidance based standards adoption
+405,product shall robust fault tolerance.The product shall fault tolerance using recovery technique compensatory transaction routing around failures
+406,product shall able process transactions.The product shall process minimum 1 million transactions per year
+407,product shall platform independent.The product shall enable access type development environment platform
+408,product shall interface CSR Datastream.The product shall exchange messages CSR EAM real time basis without direct interfaces two systems
+409,product shall continue operate upgrade change new resource addition.The product shall able continue operate interruption service due new resource additions
+410,product shall updated regular basis.The product new major feature introduced every six months quarterly maintenance releases every six months
+411,product shall operate every platform.The product shall accommodate new technology without change architecture
+412,product shall security.The product shall provide authentication authorization
+413,product shall information Security product shall enable privacy encryption WS-Security Integrity Checking
+414,product shall audit capabilities.The product shall store messages minimum one year audit transaction tracking purposes
+415,system shall use IBM CCR branding standards interface must one IBM logo one CCR logo
+416,system shall displayable work computer CCR user may system interface shall formatted display 800 600 pixel resolution
+417,system interface use CCR nomenclature system must use nomenclature used existing WCS system reports
+418,interface must summarize data fashion appealing CCR management Every report type must least one high level summary shown results dashboard/interface
+419,system must use point click interface 100 selection navigation functionality must able activated/selected either mouse keyboard
+420,interface shall easy use 90 users able successfully use system generate report first use interface adhere IBM usability standards
+421,Rreports must easy generate eports must generated within one button click exported within one button click selecting report
+422,user shall able use system without instruction short amount time one use user understand remember 90 system usage navigation
+423,CCR users shall receive training WCS system deployed One training session held 100 CCR users system deployment based CCR user available
+424,WCS system shall use appropriate nomenclature terminology defined Corporate Community Grants organization interfaces reports undergo usability tests CCR users
+425,WCS system shall available times long IBM internal intranet W3 accessible WCS system available 95 time IBM internal intranet W3 available
+426,WCS system shall ability connect designated WCS databases currently included system
+427,WCS system shall ability include data regions outside United States accessed users outside United States approved CCR management
+428,WCS system shall run Windows environment WCS shall accessed users Internet IBM computer running Windows 2000 operating system
+429,Brio portion WCS system must able export files spreadsheet form Microsoft Excel Lotus 1-2-3 formats Brio provide buttons user interface produce/export reports .xls .123 file formats
+430,WCS system must run queries WCS databases specified day update available data available CCR users Queries must made external databases data refresh week
+431,changes updates additions WCS system shall updated WCS Developer WCS User Guides Every change must reflected WCS system documentation
+432,system shall accessed authorized Corporate Community Grants CCR employees Users must authenticated using IBM intranet user name password
+433,WCS system shall allow automatic logins user Cookies containing WCS login information user stored user computer
+434,team owner need use username password order authenticated reach team owner page
+435,Commissioner authorized user per league adjust league settings
+436,page shall contain navigation menu shows index current page contained
+437,page shall contain similar format action items one location navigation buttons different location
+438,message board shall contain 5 recently posted messages league page messages contain first 150 characters message
+439,new user shall able navigate league team pages within 30 seconds reaching start-up page
+440,Users shall able reach add drop trade player pages one click team owner page
+441,Users shall able view least 25 NFL player statistics points page
+442,application shall ask user confirm dropping player trading player performing action
+443,application shall able complete every user transaction within one fourth second receiving request network
+444,application shall downtime 10 minutes per year
+445,application shall run web application server
+446,maximum wait time user navigating one screen another within Disputes application shall 5 seconds
+447,Disputes application shall support 350 concurrent users without degradation performance application
+448,Disputes application shall available 24x7x365 exception following scheduled maintenance windows Monday Saturday 3
+449,Disputes application shall interface Statement Database Statement Database provides transaction details Disputes System transaction details must obtained Statement Database
+450,primary database used store cached data active users
+451,system shall achieve 95 time
+452,system shall professional appearance
+453,product shall consistent color scheme fonts
+454,system shall used realtors training
+455,system shall intuitive self explanatory
+456,product shall easy realtor learn
+457,product shall use symbols words naturally understandable realtor community
+458,product shall produce search results acceptable time
+459,search results shall returned later 30 seconds user entered search criteria
+460,product shall generate CMA report acceptable time
+461,CMA report shall returned later 60 seconds user entered CMA report criteria
+462,product shall synchronize contacts appointments acceptable time
+463,product shall synchronize office system every hour
+464,product shall available use 24 hours per day 365 days per year
+465,1000 accesses system system available 999 times
+466,product shall operate offline mode whenever internet connection unavailable
+467,product shall allow user view previously downloaded search results CMA reports appointments
+468,product shall retain user preferences event failure
+469,100 saved user preferences shall restored system comes back online
+470,product shall able support multiple remote users
+471,product shall able support 1000 simultaneous users
+472,product shall capable handling existing 1000 users number expected grow 5 times within next year
+473,product shall installed untrained realtor without recourse separately-printed instructions
+474,90 untrained realtors shall able install product device without printed instructions
+475,product expected run Windows CE Palm operating systems
+476,registered realtors shall able access system
+477,Every user system shall authenticated authorized
+478,product shall prevent data incorrect data introduced
+479,system shall allow real estate agent query MLS information
+480,user shall able get driving directions selected property
+481,user shall able download appointments contact information clients
+482,system shall display clear property images search results
+483,system shall able handle user requests/usage business hours
+484,system shall cater 10 simultaneous users 9am 5pm
+485,system shall capable processing 100 nursing students classes next 10 years
+486,system shall expected manage nursing program curriculum class/clinical scheduling minimum 5 years
+487,system shall able operate within business office environment typical Nursing Department DePaul University
+488,system shall used within specifications defined computers used Program Administrators/Nursing Staff Members
+489,secondary database used store historical statistics data
+490,system shall able call seller buyer schedule appointment
+491,realtor shall notified new client appointments automatic synchronization office system
+492,realtor shall able retrieve map showing property locations specified area
+493,system shall notify realtor seller buyer responds appointment request
+494,product shall allow user save property search results
+495,system shall easy use Program Administrators/Nursing Staff Members
+496,users shall able use system one day training
+497,system shall help user avoid making mistakes scheduling classes clinicals nursing students
+498,number mistakes noted students shall decreased 50 first year
+499,system shall intuitive Program Administrators/Nursing Staff Members
+500,2 3 Program Administrators/Nursing Staff Members shall successfully able use system manage scheduling classes clinicals
+501,system shall use symbols words naturally understandable user community
+502,verbiage used within system shall consistent Standard English terminology national Nursing Community
+503,Staff members shall able complete set tasks timely manner
+504,response time general student management tasks shall take longer 5 seconds response time schedule generation shall take longer 30 seconds
+505,system shall available use hours 8am 6pm
+506,system shall operate within Windows XP Professional operating system
+507,system shall interface CampusConnect central server
+508,system shall interface faculty central server
+509,system shall interface student master server
+510,must able interface HTML browser
+511,authorized users shall access clinical site information
+512,Program Administrators/Nursing Staff Members people shall access clinical site details
+513,authorized users shall access students personal information
+514,Dr Susan Poslusny Dr Julie Donalek people shall access students personal information
+515,authorized users shall access portion system interfaces CampusConnect
+516,Fit Criterion
+517,system shall basic data integrity checking reduce possibility incorrect invalid data introduced
+518,system shall protect private information accordance organization information policy
+519,system shall built secure possible malicious interference
+520,system shall use organization standard virus protection software help monitor threats
+521,cohort shall associated one Program Study offered department
+522,Program Administrators Nursing Staff Members shall able add listing students cohort
+523,Program Administrators Nursing Staff Members shall able add single student cohort
+524,Students added cohort shall eligible cohort Program Study
+525,Program Administrators Nursing Staff Members shall able specify preferred sequence classes given cohort
+526,class within sequence cohort Program Administrators Nursing Staff Members shall able specify quarter class offered
+527,Program Administrators Nursing Staff Members shall able add new classes sequence classes
+528,Application updates shall occur 3AM 6 CST Wednesday morning middle NFL season
+529,New System version releases shall released beginning NFL season
+530,system shall display data Sync Matrix 1.0 Exercise Management Tool 1.0 applications
+531,system shall link Events back either Sync Matrix 1.0 Exercise Managment Tool 1.0 applications modifications
+532,system shall allow modification display
+533,system shall offer display Events exercise
+534,system shall filter data
+535,system shall allow user define time segments
+536,system shall display local exercise time separate clocks
+537,system shall offer ability pause resume refresh data
+538,system shall provide charts Activity Event actual versus assumed time
+539,RFS system available 24/7 especially budgeting period RFS system shall available 90 time year 98 budgeting period 2 time system become available within 1 hour time situation reported
+540,98 user workstations shall meet minimum hardware requirements prior implementation Minimum Hard Disk Space
+541,98 user workstations shall meet minimum software requirements prior implementation
+542,RFS system able easily interface BDW environment order load data 7 data files shall received BDW loaded RFS system within 3 hours one day prior start budgeting process every year data October month-end Test files 7 shall loaded 5 times throughout year BDW
+543,Changes revenue expense formulae must applied RFS system every year prior budgeting process start Revenue expense formulae updated within one week receipt 2 weeks allotted testing budget calculations conducted jointly project development team PCG Finance
+544,New branches/complexes/districts/regions revenue/expense accounts added BDW must reflected RFS system 100 entities mentioned available October month-end loaded RFS system prior budget start process
+545,authorized user shall access RFS system users exist UAS system RFS system assigned role shall access RFS system use
+546,User access limited permissions granted role level PCG hierarchy assigned role users assigned roles Access functionality within RFS system dependent privileges/permission assigned role ..
+547,product must comply intranet page standards requirements ENET Securities 95 product look feel approved Architecture group prior implementation remaining 5 corrected approved within one month product release
+548,intranet pages display appropriately resolutions 800x600 higher display pages correct 95 resolutions prior implementation remaining 5 corrected within week notification incorrect display
+549,users able easily use system successfully complete budgets within stipulated time completion week training prior product implementation 98 users shall complete budgets within stipulated time
+550,product interface fast response time product interface exceed 2 seconds 90 time 10 time response time 10 seconds.not 10 seconds
+551,system use stored e-mail addresses primary means communicating information affected parties
+552,system notify affected parties routine communication purposes including limited informing students upcoming offered classes timeline schedule be/shall
+553,system notify affected parties changes occur affecting clinicals including limited clinical section capacity changes clinical section cancellations
+554,system notify affected parties changes occur affecting classes including limited class cancellations class section detail changes changes class offerings given quarter
